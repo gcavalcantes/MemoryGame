@@ -2,17 +2,18 @@
     background-image: radial-gradient( circle farthest-corner at 10% 20%, #2b7755 0%, rgba(84,122,126,1) 89.8% );
 }
 
-h3 {
-    text-align: center;
-    color: white;
-    display: grid;
-    margin-left: 100px;
-}
 
-#grid{
+#grid {
     width: 400px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    display: grid;
+    margin-left: 100px;
 }
